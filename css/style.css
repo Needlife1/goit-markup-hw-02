@@ -247,7 +247,7 @@ body {
 .footer-mail,
 .footer-tel {
     font-weight: 400;
-    font-size: 14px;
+    font-size: normal;
     line-height: 1.71;
     letter-spacing: 0.03em;
     color: var(--footer-mail);
