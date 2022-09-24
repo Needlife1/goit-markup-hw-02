@@ -1,9 +1,3 @@
-*,
-*::before,
-*::after {
-    box-sizing: border-box;
-}
-
 :root {
     --primary-text-color: #212121;
     --text-color: #757575;
@@ -43,7 +37,7 @@ body {
     line-height: 0.83;
     letter-spacing: 0.03em;
     color: var(--accent-color);
-    margin-right: 93px;
+
 }
 
 
@@ -51,20 +45,15 @@ body {
     color: var(--black-color)
 }
 
-.header-list {
-    display: flex;
-
-}
 
 
-.header-list .header-itam:not(:last-child) {
-    margin-right: 50px;
-}
+
+
 
 .header-link {
-    display: block;
-    padding-top: 32px;
-    padding-bottom: 32px;
+
+
+
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -87,13 +76,11 @@ body {
     color: var(--accent-color);
 }
 
-.list {
-    display: flex;
-}
 
-.list-itam:not(:last-child) {
-    margin-right: 50px;
-}
+
+
+
+
 
 .header-mail,
 .header-tel {
@@ -103,7 +90,7 @@ body {
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--text-color);
-    margin-right: 50px;
+
 }
 
 
@@ -160,13 +147,7 @@ body {
 
 /* ------------Benefits------------ */
 
-.benefits-container {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
 
-
-}
 
 .visually-hidden {
     position: absolute;
